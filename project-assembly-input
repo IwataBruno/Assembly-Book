@@ -1,0 +1,7 @@
+section .data
+    msg db 'Please insert your name: '; Nothing 0xA because dont use /n
+    len equ $ - msg
+
+section .bss
+    name resb 1
+section .text 
